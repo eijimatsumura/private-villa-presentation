@@ -5,7 +5,7 @@ const slides = [
   {
     file: "01_exterior_day.png",
     title: "森に抱かれる石の別荘",
-    description: "軽井沢の自然と重なり合う、静かなラグジュアリー。",
+    description: "森の自然と重なり合う、静かなラグジュアリー。",
   },
   {
     file: "02_entrance_approach.png",
@@ -107,7 +107,7 @@ function createEndSlide(index) {
 
   const subtitle = document.createElement("p");
   subtitle.className = "end-subtitle";
-  subtitle.textContent = "Karuizawa Private Villa";
+  subtitle.textContent = "Private Villa";
 
   content.append(kicker, title, subtitle);
   section.append(content);
